@@ -16,6 +16,9 @@
 	}
 
 		var addToZeroArray = [];
+        var addToZeroArray = [1];
+        var addToZeroArray = [1, 2, 3];
+        var addToZeroArray = [1, 2, 3, -2];
 		var x = -2;
 		var size = addToZeroArray.length;
 
@@ -25,7 +28,7 @@
 			console.log("No valid pair exists for");
 		}
 
-// addToZero([1]);
+/* addToZero([1]);
 function addToZero(addToZeroArray , size , x) {
     for (i = 0; i < (size - 1); i++) {
         for (j = (i + 1); j < size; j++) {
@@ -98,7 +101,7 @@ function addToZero(addToZeroArray , size , x) {
         console.log("Valid pair exists");
     } else {
         console.log("No valid pair exists for");
-    }
+    } */
 
 // 2) Unique Characters
 //Monday
